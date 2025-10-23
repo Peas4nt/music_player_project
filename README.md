@@ -32,18 +32,19 @@ Create a `.env` file in the `/server` directory and configure your database and 
 
 ## 🚀 How to Run
 
-### 🖥️ Start the frontend
+### ⚙️ Install Dependencies
 
 ```bash
 npm install
-npm run start
-```
-
-### 💾 Start the backend
-
-```bash
 cd ./server
 npm install
+```
+
+### 🚀 Start the Project
+
+```bash
+# Start the backend server
+cd ./server
 npm run start
 ```
 
