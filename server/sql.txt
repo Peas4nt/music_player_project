@@ -1,0 +1,13 @@
+I use a PostgreSQL database. It has only one table.
+
+
+CREATE TABLE public.tracks (
+	id serial4 NOT NULL,
+	title varchar NULL,
+	artist varchar NULL,
+	filename varchar NULL,
+	date_created timestamp DEFAULT now() NULL,
+	spotify_track_id varchar NULL,
+	img_url varchar NULL,
+	CONSTRAINT tracks_pk PRIMARY KEY (id)
+);
